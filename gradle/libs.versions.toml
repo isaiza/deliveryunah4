@@ -1,0 +1,37 @@
+# Definir las versiones de las dependencias
+[versions]
+agp = "8.9.0"
+junit = "4.13.2"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+kotlin = "2.0.21"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.10.1"
+composeBom = "2024.09.00"
+firebaseAuth = "20.3.0"
+firebaseFirestore = "24.2.0"
+
+# Definir las bibliotecas (dependencias)
+[libraries]
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+ui = { module = "androidx.compose.ui:ui", version.ref = "composeBom" }
+ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "composeBom" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "composeBom" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "composeBom" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "composeBom" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "composeBom" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material" }
+
+# Dependencias de Firebase
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
+
+# Plugins
+[plugins]
+android = { id = "com.android.application", version.ref = "agp" }
+kotlin = { id = "org.jetbrains.kotlin.android", version = "2.0.21" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version = "2.0.21" }

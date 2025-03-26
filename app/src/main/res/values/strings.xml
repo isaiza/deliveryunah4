@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Deliveryunah</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">ActivityRegister</string>
+    <string name="titulo_registro">Registro de Usuario</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_telefono">Número de Teléfono</string>
+    <string name="hint_numero_cuenta">Número de Cuenta</string>
+    <string name="hint_email">Correo Institucional</string>
+    <string name="hint_carrera">Carrera</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="boton_registro">Registrarse</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>

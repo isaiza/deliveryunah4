@@ -1,0 +1,48 @@
+{
+  "negocios": {
+    "ID_NEGOCIO_1": {
+      "descripcion": "Las mejores pupusas en la UNAH",
+      "id_administrador": "UID_DEL_ADMINISTRADOR",
+      "nombre_negocio": "Pupusas Express"
+    },
+    "ID_NEGOCIO_2": {
+      "descripcion": "Otra descripción del negocio",
+      "id_administrador": "OTRO_UID_DEL_ADMINISTRADOR",
+      "nombre_negocio": "Otro Negocio"
+    }
+  },
+  "pedidos": {
+    "ID_PEDIDO_1": {
+      "estado": "Pendiente",
+      "fecha_pedido": "AAAA-MM-DDTHH:MM:SSZ",
+      "id_cliente": "UID_DEL_CLIENTE",
+      "id_repartidor": "UID_DEL_REPARTIDOR",
+      "metodo_pago": "Efectivo",
+      "total": 250
+    },
+    "ID_PEDIDO_2": {
+      "estado": "En curso",
+      "fecha_pedido": "AAAA-MM-DDTHH:MM:SSZ",
+      "id_cliente": "OTRO_UID_DEL_CLIENTE",
+      "id_repartidor": "OTRO_UID_DEL_REPARTIDOR",
+      "metodo_pago": "Tarjeta",
+      "total": 300.5
+    }
+  },
+  "usuarios": {
+    "UID_DEL_USUARIO_1": {
+      "correo": "juan@unah.hn",
+      "fecha_registro": "AAAA-MM-DDTHH:MM:SSZ",
+      "id_usuario": "UID_DEL_USUARIO_1",
+      "nombre_usuario": "Juan Pérez",
+      "rol": "Cliente"
+    },
+    "UID_DEL_USUARIO_2": {
+      "correo": "otro@ejemplo.com",
+      "fecha_registro": "AAAA-MM-DDTHH:MM:SSZ",
+      "id_usuario": "UID_DEL_USUARIO_2",
+      "nombre_usuario": "Otro Usuario",
+      "rol": "Repartidor"
+    }
+  }
+}

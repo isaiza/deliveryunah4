@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "779437128287",
+    "firebase_url": "https://delivery-7cd74-default-rtdb.firebaseio.com",
+    "project_id": "delivery-7cd74",
+    "storage_bucket": "delivery-7cd74.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779437128287:android:0490c373d4db412c54f9ea",
+        "android_client_info": {
+          "package_name": "com.example.deliveryunah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT0OfDlFEM86WiePr6l3zBkpMEwCVFQhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
